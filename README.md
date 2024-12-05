@@ -50,7 +50,9 @@ For different input combinations generate the timining diagram.
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
 Developed by:R.DEEPIKA RegisterNumber:24900220
-*/```module en8(din,a,b,c);
+*/
+```
+module en8(din,a,b,c);
 input [0:7]din;
 output a,b,c;
 assign a=(din[4]|din[5]|din[6]|din[7]);
@@ -64,6 +66,8 @@ endmodule
 
 
 
+![image](https://github.com/user-attachments/assets/b9c052c0-4def-4b0c-b2f9-1c4a332e14c2)
+
 
 
 
@@ -74,16 +78,15 @@ endmodule
 
 
 
-
-![image](https://github.com/user-attachments/assets/d90ea109-12ce-4922-8277-7ee7593a0c36)
-
+![image](https://github.com/user-attachments/assets/bf78ed02-9a89-45e6-a93d-d22b298d35a7)
 
 
 
 
 
+**RESULTS**
 
-**RESULTS** Therefore encoder 8 to 3 in dataflowing modeling using verilog and validating thrit functional tables is verify.   
+ Therefore encoder 8 to 3 in dataflowing modeling using verilog and validating thrit functional tables is verify.   
 
 
 
